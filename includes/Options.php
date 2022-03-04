@@ -111,6 +111,15 @@ class Options {
 	}
 
 	/**
+	 * Get all options.
+	 *
+	 * @return array
+	 */
+	public function all() {
+		return $this->options;
+	}
+
+	/**
 	 * Save options to the database.
 	 *
 	 * @return bool
