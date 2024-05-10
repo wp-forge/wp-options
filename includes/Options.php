@@ -49,7 +49,7 @@ class Options {
 	 * @return array
 	 */
 	public function fetch() {
-		return (array) get_option( $this->optionName, [] );
+		return (array) \get_option( $this->optionName, [] );
 	}
 
 	/**
